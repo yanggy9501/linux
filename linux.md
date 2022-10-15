@@ -17,7 +17,7 @@
 
 **sbin**
 
-*   s是super user的意思，bin仍是binary的缩写，存储系统管理元才能使用的命令
+*   s是super user的意思，bin仍是binary的缩写，存储系统管理员才能使用的命令
 
 **home**
 
@@ -1688,6 +1688,12 @@ top [选项]
 ## 16. 网络类
 
 ### netstat 显示网络状态及端口信息
+
+如果没有该命令，则先安装：
+
+```sh
+yum -y install net-tools
+```
 
 **基本语法**
 
